@@ -1,0 +1,7 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+
+    // WINDOWS ONLY
+    "git.path": "D:\\Software\\MSYS2\\usr\\bin\\git.exe",
+}
