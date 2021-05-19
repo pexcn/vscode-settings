@@ -36,4 +36,6 @@
     "markdownlint.config": {
         "MD029": false
     },
+    // Sync ignored
+    "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
 }
