@@ -1,7 +1,39 @@
 {
-    "workbench.startupEditor": "none",
+    // Common
+    "editor.fontFamily": "Consolas, 'Courier New', 微软雅黑, monospace",
     "editor.fontSize": 16,
-
-    // WINDOWS ONLY
-    "git.path": "D:\\Software\\MSYS2\\usr\\bin\\git.exe",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "files.eol": "\n",
+    "files.autoGuessEncoding": true,
+    "workbench.startupEditor": "none",
+    "debug.toolBarLocation": "docked",
+    "editor.renderLineHighlight": "all",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#135564",
+        "editor.lineHighlightBorder": "#135564"
+    },
+    "terminal.integrated.defaultProfile.windows": "MSYS2",
+    "terminal.integrated.profiles.windows": {
+        "MSYS2": {
+            "path": "D:\\Software\\MSYS2\\usr\\bin\\bash.exe",
+            "args": [
+                "--login"
+            ],
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1",
+                "MSYS2_PATH_TYPE": "inherit"
+            },
+            // "overrideName": true
+        }
+    },
+    // Extensions
+    "markdownlint.config": {
+        "MD029": false
+    },
 }
