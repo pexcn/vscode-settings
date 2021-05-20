@@ -18,6 +18,7 @@
         "editor.lineHighlightBackground": "#135564",
         // "editor.lineHighlightBorder": "#135564"
     },
+    "terminal.integrated.lineHeight": 1.2,
     "terminal.integrated.tabs.enabled": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
@@ -39,6 +40,8 @@
         }
     },
     // Extensions
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
     "markdownlint.config": {
         "MD029": false
     },
