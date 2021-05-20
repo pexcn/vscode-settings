@@ -11,11 +11,12 @@
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
     "workbench.startupEditor": "none",
+    "window.restoreWindows": "none",
     "debug.toolBarLocation": "docked",
-    "editor.renderLineHighlight": "all",
+    // "editor.renderLineHighlight": "all",
     "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#135564",
-        "editor.lineHighlightBorder": "#135564"
+        // "editor.lineHighlightBorder": "#135564"
     },
     "terminal.integrated.tabs.enabled": true,
     "terminal.integrated.cursorStyle": "line",
@@ -28,7 +29,8 @@
         "MSYS2": {
             "path": "D:\\Software\\MSYS2\\usr\\bin\\bash.exe",
             "args": [
-                "--login"
+                "--login",
+                "-i"
             ],
             "env": {
                 "MSYSTEM": "MSYS",
@@ -42,4 +44,5 @@
     },
     // Sync ignored
     "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
+    // TODO: terminal use fira code & https://github.com/microsoft/cascadia-code
 }
