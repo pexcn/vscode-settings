@@ -1,6 +1,6 @@
 {
     // Common
-    "editor.fontFamily": "Consolas, 'Courier New', 微软雅黑, monospace",
+    "editor.fontFamily": "Consolas, 微软雅黑",
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10000,
