@@ -69,12 +69,13 @@
         }
     },
     // Extensions
+    "markdown-preview-enhanced.previewTheme": "atom-material.css",
     "markdownlint.config": {
         "MD029": false
     },
     // Sync ignored
     "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
     //
-    // TODO: terminal use fira code & https://github.com/microsoft/cascadia-code
+    // TODO: terminal use fira code ? & try cascadia-code
     //
 }
