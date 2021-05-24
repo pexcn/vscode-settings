@@ -13,6 +13,7 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "debug.toolBarLocation": "docked",
+    "telemetry.enableCrashReporter": false,
     "editor.renderLineHighlight": "all",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.colorCustomizations": {
