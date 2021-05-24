@@ -29,8 +29,6 @@
             // "editor.lineHighlightBorder": "#073642",
         },
         "[Solarized Dark]": {
-            "editor.lineHighlightBackground": "#073642",
-            // "editor.lineHighlightBorder": "#073642",
             "editorCursor.foreground": "#AEAFAD",
             "terminal.ansiBlack": "#000000",
             "terminal.ansiRed": "#cd3131",
