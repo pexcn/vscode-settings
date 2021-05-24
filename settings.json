@@ -15,7 +15,10 @@
     "debug.toolBarLocation": "docked",
     "telemetry.enableCrashReporter": false,
     "editor.renderLineHighlight": "all",
+    "workbench.enableExperiments": false,
+    "workbench.list.smoothScrolling": true,
     "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
             "editor.lineHighlightBackground": "#073642",
@@ -76,6 +79,9 @@
     // Sync ignored
     "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
     //
-    // TODO: terminal use fira code ? & try cascadia-code
+    // TODO:
+    //   fira code
+    //   cascadia-code
+    //   JetBrains Mono
     //
 }
