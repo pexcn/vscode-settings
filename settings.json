@@ -69,8 +69,6 @@
         }
     },
     // Extensions
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
     "markdownlint.config": {
         "MD029": false
     },
