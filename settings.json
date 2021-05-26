@@ -70,7 +70,6 @@
         }
     },
     // Extensions
-    "markdown-preview-enhanced.previewTheme": "atom-material.css",
     "markdownlint.config": {
         "MD029": false
     },
