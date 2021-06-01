@@ -8,6 +8,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "explorer.confirmDelete": false,
     "files.eol": "\n",
     "files.autoGuessEncoding": true,
     "workbench.startupEditor": "none",
@@ -80,5 +81,7 @@
     //   fira code
     //   cascadia-code
     //   JetBrains Mono
+    //   https://github.com/powerline/fonts
+    //   https://github.com/powerline/powerline
     //
 }
