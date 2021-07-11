@@ -1,6 +1,8 @@
 {
     // Common
+    // "editor.fontFamily": "Fira Code Retina, JetBrains Mono, Consolas, 微软雅黑",
     "editor.fontFamily": "Consolas, 微软雅黑",
+    "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10000,
@@ -76,12 +78,4 @@
     },
     // Sync ignored
     "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
-    //
-    // TODO:
-    //   fira code
-    //   cascadia-code
-    //   JetBrains Mono
-    //   https://github.com/powerline/fonts
-    //   https://github.com/powerline/powerline
-    //
 }
