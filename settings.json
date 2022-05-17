@@ -65,11 +65,11 @@
     },
     // Extensions
     "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
-    "remote.SSH.configFile": "D:\\Software\\OpenSSH\\sshd_config",
+    "remote.SSH.configFile": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\sshd_config",
     "remote.SSH.remotePlatform": {
         "can.pexcn.me": "linux",
         "192.168.246.68": "linux"
     },
     // Sync ignored
-    "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
+    "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
 }
