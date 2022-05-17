@@ -1,3 +1,7 @@
+Host "ITMP Docs"
+  HostName 192.168.246.68
+  User root
+
 Host *
   UserKnownHostsFile D:\Software\OpenSSH\known_hosts
   #StrictHostKeyChecking no
