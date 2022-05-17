@@ -1,6 +1,5 @@
 {
     // Common
-    // "editor.fontFamily": "Fira Code Retina, JetBrains Mono, Consolas, 微软雅黑",
     "editor.fontFamily": "Consolas, 微软雅黑",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -16,23 +15,15 @@
     "workbench.startupEditor": "none",
     "window.restoreWindows": "none",
     "debug.toolBarLocation": "docked",
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "editor.renderLineHighlight": "all",
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
-        "[Default Dark+]": {
-            "editor.lineHighlightBackground": "#073642",
-            // "editor.lineHighlightBorder": "#073642",
-        },
-        "[Visual Studio Dark]": {
-            "editor.lineHighlightBackground": "#073642",
-            // "editor.lineHighlightBorder": "#073642",
-        },
         "[Solarized Dark]": {
-            "editorCursor.foreground": "#AEAFAD",
+            "editorCursor.foreground": "#aeafad",
             "terminal.ansiBlack": "#000000",
             "terminal.ansiRed": "#cd3131",
             "terminal.ansiGreen": "#0dbc79",
@@ -61,20 +52,23 @@
         "PowerShell": null,
         "Windows PowerShell": null,
         "MSYS2": {
+            "env": {
+                "MSYSTEM": "MSYS",
+                "CHERE_INVOKING": "1"
+            },
             "path": "D:\\Software\\MSYS2\\usr\\bin\\bash.exe",
             "args": [
                 "--login",
                 "-i"
-            ],
-            "env": {
-                "MSYSTEM": "MSYS",
-                "CHERE_INVOKING": "1"
-            }
+            ]
         }
     },
     // Extensions
-    "markdownlint.config": {
-        "MD029": false
+    "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
+    "remote.SSH.configFile": "D:\\Software\\OpenSSH\\sshd_config",
+    "remote.SSH.remotePlatform": {
+        "can.pexcn.me": "linux",
+        "192.168.246.68": "linux"
     },
     // Sync ignored
     "git.path": "D:\\Software\\MSYS2\\git-wrap.bat",
