@@ -3,5 +3,5 @@ Host "ITMP Docs"
   User root
 
 Host *
-  UserKnownHostsFile D:\Software\OpenSSH\known_hosts
+  UserKnownHostsFile D:\Software\MSYS2\home\Administrator\.ssh\known_hosts
   #StrictHostKeyChecking no
