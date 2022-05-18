@@ -50,7 +50,6 @@
     "terminal.integrated.defaultProfile.windows": "MSYS2",
     "terminal.integrated.allowChords": false,
     "terminal.integrated.showExitAlert": false,
-    "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
     "terminal.integrated.profiles.windows": {
         "Git Bash": null,
         "PowerShell": null,
@@ -67,6 +66,7 @@
             ]
         }
     },
+    "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
     // Extensions
     "material-icon-theme.showUpdateMessage": true,
     "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
