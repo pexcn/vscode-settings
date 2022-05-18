@@ -16,6 +16,7 @@
     "window.restoreWindows": "none",
     "debug.toolBarLocation": "docked",
     "telemetry.telemetryLevel": "off",
+    "update.enableWindowsBackgroundUpdates": false,
     "editor.renderLineHighlight": "all",
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
@@ -47,6 +48,9 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.defaultProfile.windows": "MSYS2",
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.showExitAlert": false,
+    "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
     "terminal.integrated.profiles.windows": {
         "Git Bash": null,
         "PowerShell": null,
@@ -64,11 +68,10 @@
         }
     },
     // Extensions
+    "material-icon-theme.showUpdateMessage": true,
     "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
     "remote.SSH.configFile": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\ssh_config",
     "remote.SSH.remotePlatform": {
         "ITMP Docs": "linux"
     },
-    // Sync ignored
-    "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
 }
