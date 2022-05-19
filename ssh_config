@@ -1,3 +1,7 @@
+Host MIDO
+  HostName 192.168.2.200
+  User root
+
 Host CANTON
   HostName can.pexcn.me
   User root
@@ -5,10 +9,6 @@ Host CANTON
 
 Host Docs
   HostName 192.168.246.68
-  User root
-
-Host MIDO
-  HostName 192.168.2.200
   User root
 
 Host *
