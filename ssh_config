@@ -7,6 +7,10 @@ Host Docs
   HostName 192.168.246.68
   User root
 
+Host MIDO
+  HostName 192.168.2.200
+  User root
+
 Host *
   UserKnownHostsFile D:\Software\MSYS2\home\Administrator\.ssh\known_hosts
   IdentityFile D:\Software\MSYS2\home\Administrator\.ssh\id_ed25519

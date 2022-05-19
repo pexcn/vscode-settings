@@ -50,6 +50,7 @@
     "terminal.integrated.defaultProfile.windows": "MSYS2",
     "terminal.integrated.allowChords": false,
     "terminal.integrated.showExitAlert": false,
+    "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.profiles.windows": {
         "Git Bash": null,
         "PowerShell": null,
@@ -76,9 +77,11 @@
     "remote.SSH.configFile": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\ssh_config",
     "remote.SSH.remotePlatform": {
         "Docs": "linux",
-        "CANTON": "linux"
+        "CANTON": "linux",
+        "MIDO": "linux",
     },
     "remote.SSH.serverInstallPath": {
-        "CANTON": "/opt"
+        "CANTON": "/opt",
+        "MIDO": "/opt",
     },
 }
