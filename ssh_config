@@ -1,4 +1,9 @@
-Host "ITMP Docs"
+Host CANTON
+  HostName can.pexcn.me
+  User root
+  Port 2222
+
+Host Docs
   HostName 192.168.246.68
   User root
 
