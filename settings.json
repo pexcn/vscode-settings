@@ -76,12 +76,15 @@
     "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
     "remote.SSH.configFile": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\ssh_config",
     "remote.SSH.remotePlatform": {
-        "Docs": "linux",
-        "CANTON": "linux",
+        "CN2": "linux",
         "MIDO": "linux",
+        "Docs": "linux",
     },
     "remote.SSH.serverInstallPath": {
-        "CANTON": "/opt",
+        "CN2": "/opt",
         "MIDO": "/opt",
     },
+    //"vim.useSystemClipboard": true,
+    //"vim.camelCaseMotion.enable": true,
+    //"rust-analyzer.inlayHints.typeHints.enable": false,
 }
