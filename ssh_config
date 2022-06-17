@@ -1,5 +1,5 @@
-Host CN2
-  HostName cn2.pexcn.me
+Host NAS
+  HostName 192.168.1.20
   User root
   Port 2222
 
