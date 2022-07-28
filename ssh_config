@@ -5,7 +5,7 @@ Host NAS
 
 Host MIDO
   HostName 192.168.2.200
-  User root
+  User vscode
   Port 2222
 
 Host Docs
