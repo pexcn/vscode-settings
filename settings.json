@@ -82,7 +82,7 @@
     },
     "remote.SSH.serverInstallPath": {
         "NAS": "/opt",
-        "MIDO": "/opt",
+        //"MIDO": "/opt",
         "Docs": "/opt",
     },
     // TODO:
