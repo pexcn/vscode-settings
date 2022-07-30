@@ -81,12 +81,9 @@
         "MIDO": "linux",
         "Docs": "linux",
     },
-    "remote.SSH.serverInstallPath": {
-        //"ARCH": "/opt",
-        //"NAS": "/opt",
-        //"MIDO": "/opt",
-        "Docs": "/opt",
-    },
+    // "remote.SSH.serverInstallPath": {
+    //     "ARCH": "/opt",
+    // },
     // TODO:
     //"vim.useSystemClipboard": true,
     //"vim.camelCaseMotion.enable": true,

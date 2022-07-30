@@ -8,6 +8,11 @@ Host ARCH
   User vscode
   Port 2222
 
+Host NAS
+  HostName 192.168.1.20
+  User vscode
+  Port 3333
+
 Host MIDO
   HostName 192.168.2.200
   User vscode
