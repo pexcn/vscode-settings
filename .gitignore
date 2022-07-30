@@ -2,5 +2,6 @@
 !README.md
 !settings.json
 !keybindings.json
+!sync/extensions/lastSyncextensions.json
 !git-wrap.bat
 !ssh_config
