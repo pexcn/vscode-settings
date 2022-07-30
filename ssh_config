@@ -1,6 +1,11 @@
-Host NAS
-  HostName 192.168.1.20
-  User root
+Host *
+  IdentityFile D:\Software\MSYS2\home\Administrator\.ssh\id_ed25519
+  UserKnownHostsFile D:\Software\MSYS2\home\Administrator\.ssh\known_hosts
+  #StrictHostKeyChecking no
+
+Host ARCH
+  HostName 192.168.1.10
+  User vscode
   Port 2222
 
 Host MIDO
@@ -11,8 +16,3 @@ Host MIDO
 Host Docs
   HostName 192.168.246.68
   User root
-
-Host *
-  UserKnownHostsFile D:\Software\MSYS2\home\Administrator\.ssh\known_hosts
-  IdentityFile D:\Software\MSYS2\home\Administrator\.ssh\id_ed25519
-  #StrictHostKeyChecking no
