@@ -18,10 +18,15 @@ Host NAS-RUST
   User vscode
   Port 3333
 
-Host MIDO-RUST
+Host MIDO-C
   HostName 192.168.2.200
   User vscode
   Port 2222
+
+Host MIDO-RUST
+  HostName 192.168.2.200
+  User vscode
+  Port 3333
 
 Host Docs
   HostName 192.168.246.68

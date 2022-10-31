@@ -79,6 +79,7 @@
         "ARCH-C": "linux",
         "ARCH-RUST": "linux",
         "NAS-RUST": "linux",
+        "MIDO-C": "linux",
         "MIDO-RUST": "linux",
         "Docs": "linux",
     },
