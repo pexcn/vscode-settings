@@ -3,31 +3,32 @@ Host *
   UserKnownHostsFile D:\Software\MSYS2\home\Administrator\.ssh\known_hosts
   #StrictHostKeyChecking no
 
-Host ARCH-C
+Host ARCH
   HostName 192.168.1.10
   User vscode
   Port 2222
+
+Host ARCH-C
+  HostName 192.168.1.10
+  User vscode
+  Port 3333
 
 Host ARCH-RUST
   HostName 192.168.1.10
   User vscode
-  Port 3333
+  Port 4444
 
-Host NAS-RUST
-  HostName 192.168.1.20
-  User vscode
-  Port 3333
-
-Host MIDO-C
+Host MIDO
   HostName 192.168.2.200
   User vscode
   Port 2222
 
-Host MIDO-RUST
+Host MIDO-C
   HostName 192.168.2.200
   User vscode
   Port 3333
 
-Host Docs
-  HostName 192.168.246.68
-  User root
+Host MIDO-RUST
+  HostName 192.168.2.200
+  User vscode
+  Port 4444
