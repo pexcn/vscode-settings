@@ -1,5 +1,7 @@
 {
+    //
     // Common
+    //
     "editor.fontFamily": "Consolas, 微软雅黑",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
@@ -88,13 +90,23 @@
         }
     },
     "git.path": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\git-wrap.bat",
+
+    //
     // Extensions
+    //
+    // Shell
+    "shellformat.flag": "-ci",
     "shellcheck.exclude": [
+        //"SC2155",
         "SC3043"
     ],
+
+    // Markdown
     "[markdown]": {
         "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
+
+    // Remote development
     "remote.SSH.path": "D:\\Software\\OpenSSH\\ssh.exe",
     "remote.SSH.configFile": "C:\\Users\\Administrator\\AppData\\Roaming\\Code\\User\\ssh_config",
     "remote.SSH.remotePlatform": {
@@ -105,6 +117,7 @@
         "MIDO-C": "linux",
         "MIDO-RUST": "linux",
     },
+
     // TODO:
     //"vim.useSystemClipboard": true,
     //"vim.camelCaseMotion.enable": true,
