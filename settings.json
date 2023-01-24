@@ -22,7 +22,7 @@
     "editor.renderLineHighlight": "all",
     "workbench.enableExperiments": false,
     "workbench.list.smoothScrolling": true,
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "[Solarized Dark]": {
