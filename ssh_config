@@ -18,11 +18,6 @@ Host ARCH-RUST
   User vscode
   Port 4444
 
-Host MIDO
-  HostName 192.168.2.200
-  User vscode
-  Port 2222
-
 Host MIDO-C
   HostName 192.168.2.200
   User vscode
