@@ -18,6 +18,11 @@ Host ARCH-RUST
   User vscode
   Port 4444
 
+Host ARCH-PYTHON
+  HostName 192.168.1.10
+  User vscode
+  Port 5555
+
 Host MIDO-C
   HostName 192.168.2.200
   User vscode

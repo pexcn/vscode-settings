@@ -113,6 +113,7 @@
         "ARCH": "linux",
         "ARCH-C": "linux",
         "ARCH-RUST": "linux",
+        "ARCH-PYTHON": "linux",
         "MIDO-C": "linux",
         "MIDO-RUST": "linux",
     },
