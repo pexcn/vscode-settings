@@ -117,6 +117,9 @@
         "MIDO-C": "linux",
         "MIDO-RUST": "linux",
     },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
 
     // TODO:
     //"vim.useSystemClipboard": true,
