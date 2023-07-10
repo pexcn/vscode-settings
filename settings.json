@@ -9,7 +9,7 @@
     "files.autoSaveDelay": 10000,
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "explorer.confirmDelete": false,
     "files.eol": "\n",
