@@ -114,8 +114,10 @@
         "ARCH-C": "linux",
         "ARCH-RUST": "linux",
         "ARCH-PYTHON": "linux",
-        "MIDO-C": "linux",
-        "MIDO-RUST": "linux",
+        "LIGHTHOUSE": "linux",
+        "LIGHTHOUSE-C": "linux",
+        "LIGHTHOUSE-RUST": "linux",
+        "LIGHTHOUSE-PYTHON": "linux"
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"

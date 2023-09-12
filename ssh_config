@@ -23,12 +23,22 @@ Host ARCH-PYTHON
   User vscode
   Port 5555
 
-Host MIDO-C
+Host LIGHTHOUSE
+  HostName 192.168.2.200
+  User vscode
+  Port 2222
+
+Host LIGHTHOUSE-C
   HostName 192.168.2.200
   User vscode
   Port 3333
 
-Host MIDO-RUST
+Host LIGHTHOUSE-RUST
   HostName 192.168.2.200
   User vscode
   Port 4444
+
+Host LIGHTHOUSE-PYTHON
+  HostName 192.168.2.200
+  User vscode
+  Port 5555
