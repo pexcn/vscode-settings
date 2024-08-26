@@ -122,6 +122,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
     },
+    "workbench.editor.untitled.hint": "hidden",
 
     // TODO:
     //"vim.useSystemClipboard": true,

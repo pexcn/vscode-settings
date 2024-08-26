@@ -23,6 +23,11 @@ Host ARCH-PYTHON
   User vscode
   Port 5555
 
+Host ARCH-GO
+  HostName 192.168.1.10
+  User vscode
+  Port 6666
+
 Host LIGHTHOUSE
   HostName 192.168.2.200
   User vscode
