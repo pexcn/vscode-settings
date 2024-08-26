@@ -114,6 +114,7 @@
         "ARCH-C": "linux",
         "ARCH-RUST": "linux",
         "ARCH-PYTHON": "linux",
+        "ARCH-GO": "linux",
         "LIGHTHOUSE": "linux",
         "LIGHTHOUSE-C": "linux",
         "LIGHTHOUSE-RUST": "linux",
