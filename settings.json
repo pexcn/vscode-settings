@@ -127,6 +127,7 @@
     "workbench.browser.enableChatTools": true,
     "workbench.editor.empty.hint": "hidden",
     "claudeCode.preferredLocation": "panel",
+    "terminal.integrated.initialHint": false,
 
     // TODO:
     //"vim.useSystemClipboard": true,
