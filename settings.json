@@ -125,6 +125,7 @@
     "workbench.editor.empty.hint": "hidden",
     "claudeCode.preferredLocation": "panel",
     "terminal.integrated.initialHint": false,
+    "chat.viewSessions.orientation": "stacked",
 
     // TODO:
     //"vim.useSystemClipboard": true,
