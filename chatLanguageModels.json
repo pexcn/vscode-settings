@@ -9,7 +9,7 @@
 		}
 	},
 	{
-		"name": "GLM",
+		"name": "NVIDIA",
 		"vendor": "customendpoint",
 		"apiKey": "${input:chat.lm.secret.-b772bb9}",
 		"apiType": "chat-completions",
@@ -19,10 +19,39 @@
 				"name": "GLM-5.2",
 				"url": "https://integrate.api.nvidia.com/v1",
 				"toolCalling": true,
-				"vision": true,
-				"maxInputTokens": 128000,
-				"maxOutputTokens": 16000
+				"vision": false,
+				"thinking": true,
+				"supportsReasoningEffort": [
+					"low",
+					"medium",
+					"high"
+				],
+				"maxInputTokens": 868928,
+				"maxOutputTokens": 131072
+			},
+			{
+				"id": "nvidia/nemotron-3-ultra-550b-a55b",
+				"name": "Nemotron 3 Ultra",
+				"url": "https://integrate.api.nvidia.com/v1",
+				"toolCalling": true,
+				"vision": false,
+				"thinking": true,
+				"supportsReasoningEffort": [
+					"low",
+					"medium",
+					"high"
+				],
+				"maxInputTokens": 934464,
+				"maxOutputTokens": 65536
 			}
-		]
+		],
+		"settings": {
+			"z-ai/glm-5.2": {
+				"reasoningEffort": "high"
+			},
+			"nvidia/nemotron-3-ultra-550b-a55b": {
+				"reasoningEffort": "high"
+			}
+		}
 	}
 ]
