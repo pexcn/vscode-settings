@@ -120,9 +120,6 @@
         "LIGHTHOUSE-RUST": "linux",
         "LIGHTHOUSE-PYTHON": "linux"
     },
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
     "workbench.editor.untitled.hint": "hidden",
     "workbench.browser.enableChatTools": true,
     "workbench.editor.empty.hint": "hidden",
