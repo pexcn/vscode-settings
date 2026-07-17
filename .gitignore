@@ -2,6 +2,7 @@
 !README.md
 !settings.json
 !keybindings.json
+!chatLanguageModels.json
 !sync/extensions/lastSyncextensions.json
 !git-wrap.bat
 !ssh_config

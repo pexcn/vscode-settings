@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Copilot",
+		"vendor": "copilot",
+		"settings": {
+			"gpt-5-mini": {
+				"reasoningEffort": "high"
+			}
+		}
+	},
+	{
+		"name": "GLM",
+		"vendor": "customendpoint",
+		"apiKey": "${input:chat.lm.secret.-b772bb9}",
+		"apiType": "chat-completions",
+		"models": [
+			{
+				"id": "z-ai/glm-5.2",
+				"name": "GLM-5.2",
+				"url": "https://integrate.api.nvidia.com/v1",
+				"toolCalling": true,
+				"vision": true,
+				"maxInputTokens": 128000,
+				"maxOutputTokens": 16000
+			}
+		]
+	}
+]
