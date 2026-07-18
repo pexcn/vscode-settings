@@ -24,7 +24,8 @@
 				"supportsReasoningEffort": [
 					"low",
 					"medium",
-					"high"
+					"high",
+					"xhigh"
 				],
 				"maxInputTokens": 1050000,
 				"maxOutputTokens": 128000
@@ -39,7 +40,8 @@
 				"supportsReasoningEffort": [
 					"low",
 					"medium",
-					"high"
+					"high",
+					"xhigh"
 				],
 				"maxInputTokens": 1050000,
 				"maxOutputTokens": 128000
