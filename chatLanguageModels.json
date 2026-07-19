@@ -9,6 +9,31 @@
 		}
 	},
 	{
+		"name": "SYC",
+		"vendor": "customendpoint",
+		"apiKey": "${input:chat.lm.secret.9c8f42}",
+		"apiType": "responses",
+		"models": [
+			{
+				"id": "gpt-5.6-sol",
+				"name": "GPT-5.6 SOL",
+				"url": "https://api.local.ovvo.uk/v1",
+				"toolCalling": true,
+				"vision": true,
+				"thinking": true,
+				"supportsReasoningEffort": [
+					"low",
+					"medium",
+					"high",
+					"xhigh",
+					"max"
+				],
+				"maxInputTokens": 922000,
+				"maxOutputTokens": 128000
+			}
+		]
+	},
+	{
 		"name": "Chinher",
 		"vendor": "customendpoint",
 		"apiKey": "${input:chat.lm.secret.-61992dc7}",
@@ -25,9 +50,10 @@
 					"low",
 					"medium",
 					"high",
-					"xhigh"
+					"xhigh",
+					"max"
 				],
-				"maxInputTokens": 1050000,
+				"maxInputTokens": 922000,
 				"maxOutputTokens": 128000
 			},
 			{
@@ -41,9 +67,10 @@
 					"low",
 					"medium",
 					"high",
-					"xhigh"
+					"xhigh",
+					"max"
 				],
-				"maxInputTokens": 1050000,
+				"maxInputTokens": 922000,
 				"maxOutputTokens": 128000
 			},
 			{
@@ -56,7 +83,9 @@
 				"supportsReasoningEffort": [
 					"low",
 					"medium",
-					"high"
+					"high",
+					"xhigh",
+					"max"
 				],
 				"maxInputTokens": 1000000,
 				"maxOutputTokens": 128000
@@ -66,7 +95,7 @@
 	{
 		"name": "NVIDIA",
 		"vendor": "customendpoint",
-		"apiKey": "${input:chat.lm.secret.-b772bb9}",
+		"apiKey": "${input:chat.lm.secret.63fec4af}",
 		"apiType": "chat-completions",
 		"models": [
 			{
