@@ -42,7 +42,7 @@
 			{
 				"id": "gpt-5.6-sol",
 				"name": "GPT-5.6 SOL",
-				"url": "https://aapi.chinher.cn/v1/messages",
+				"url": "https://aapi.chinher.cn/v1",
 				"toolCalling": true,
 				"vision": true,
 				"thinking": true,
@@ -59,7 +59,7 @@
 			{
 				"id": "gpt-5.6-terra",
 				"name": "GPT-5.6 Terra",
-				"url": "https://aapi.chinher.cn/v1/messages",
+				"url": "https://aapi.chinher.cn/v1",
 				"toolCalling": true,
 				"vision": true,
 				"thinking": true,
@@ -76,7 +76,7 @@
 			{
 				"id": "claude-opus-4-8",
 				"name": "Claude Opus 4.8",
-				"url": "https://aapi.chinher.cn/v1/messages",
+				"url": "https://aapi.chinher.cn/v1",
 				"toolCalling": true,
 				"vision": true,
 				"thinking": true,
