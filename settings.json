@@ -123,9 +123,9 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.browser.enableChatTools": true,
     "workbench.editor.empty.hint": "hidden",
-    "claudeCode.preferredLocation": "panel",
     "terminal.integrated.initialHint": false,
     "chat.viewSessions.orientation": "stacked",
+    "chat.agent.maxRequests": 100,
 
     // TODO:
     //"vim.useSystemClipboard": true,
