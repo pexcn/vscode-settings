@@ -12,7 +12,7 @@
 		"name": "SYC",
 		"vendor": "customendpoint",
 		"apiKey": "${input:chat.lm.secret.9c8f42}",
-		"apiType": "messages",
+		"apiType": "responses",
 		"models": [
 			{
 				"id": "gpt-5.6-sol",
