@@ -15,8 +15,8 @@
 		"apiType": "responses",
 		"models": [
 			{
-				"id": "gpt-5.6-sol",
-				"name": "GPT-5.6 Sol",
+				"id": "gpt-6-sol",
+				"name": "GPT-6 Sol",
 				"url": "https://api.local.ovvo.uk/v1",
 				"toolCalling": true,
 				"vision": true,
@@ -59,8 +59,8 @@
 		"apiType": "messages",
 		"models": [
 			{
-				"id": "gpt-5.6-sol",
-				"name": "GPT-5.6 Sol (Chinher)",
+				"id": "gpt-6-sol",
+				"name": "GPT-6 Sol (Chinher)",
 				"url": "https://aapi.chinher.cn/v1",
 				"toolCalling": true,
 				"vision": true,
