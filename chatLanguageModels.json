@@ -15,8 +15,8 @@
 		"apiType": "responses",
 		"models": [
 			{
-				"id": "gpt-6-sol",
-				"name": "GPT-6 Sol",
+				"id": "gpt-6.1-sol",
+				"name": "GPT-6.1 Sol",
 				"url": "https://api.local.ovvo.uk/v1",
 				"toolCalling": true,
 				"vision": true,
